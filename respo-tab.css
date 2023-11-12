@@ -1,0 +1,127 @@
+@media (max-width:991px)
+{
+
+    nav #name
+    {
+        font-size: 25px;
+    }    
+    nav
+    {
+        height: 8vh;
+    }
+    .me
+    {
+        height: 35vh;
+        width: 50vw;
+        border-radius: 30px;
+    }
+    .intro
+    {
+        
+        width: 100%;
+        text-align: center;
+        margin-top: -100px;
+        font-size: 250%;
+    }
+    .image
+    {
+        margin-top: -350px;
+        height: 35vh;
+        width: 50vw;
+        border-radius: 10px;
+        margin-right: 0px;
+       
+    }
+
+    
+
+    #about
+    {
+        width: 30%;
+        height: 15%;
+        margin-top: 20%;
+    }
+   .About
+   {
+    font-size: 180%;
+   }
+   .para
+   {
+
+    font-size: 150%;
+    width: 60%;
+    text-align: center;
+   }
+
+
+   .skills
+   {
+    width: 30%;
+    height: 12%;
+    margin-top: 20%;
+    font-size: 120%;
+   }
+   .skillsimages
+   {
+     margin-top: 10%;
+     margin-right: 20%;
+   }
+
+   .title
+   {
+        width:30%;
+        height: 4.3%;
+        font-size: 120%;
+   }
+
+   .content-1,.content-2
+   {
+        width: 90%;
+        height: 30vh;
+        margin-left: 0%;
+   } 
+   .content-2
+   {
+        width: 100%;
+        height: 30vh;
+        margin-left: 0%;
+   } 
+   .calbtn,.stopbtn
+   {
+        width: 50%;
+        height: 5vh;
+        font-size: 130%;
+   }
+   .calintro,.stopintro
+   {
+        font-size: 130%;
+   }
+   span
+   {
+     margin-top: 10%;
+    
+   }
+   .stop,.cal
+   {
+        font-size: 2vw ;
+        margin-left: -30%;
+   }
+   .cal
+   {
+        margin-left: -22%;
+   }
+
+   #page2
+   {
+     height: 60vh;
+   }
+
+     #page1
+   {
+          height: 70vh;
+   }
+   .page3
+   {
+          height: 80vh;
+   }
+}

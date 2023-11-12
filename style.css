@@ -1,0 +1,289 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    /* background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%); */
+    background-color: #2234ae;
+background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+
+
+}
+.list
+{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style-type: none;
+    gap: 20px;
+    margin: 35px;
+    font-size: 18px;
+    cursor: pointer;
+    height: 5vh;
+    width: 96vw;
+}
+li:hover
+{
+    font-size: 19px;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    height: 14vh;
+
+}
+#name
+{
+    width: 30%;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.name
+{
+    color: yellow;
+}
+#page1
+{
+    
+    width: 98.5vw;
+    height:89vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+
+}
+.intro
+{
+    margin: 7%;
+    font-size: 3.4vw;
+}
+.image
+{
+    height: 45vh;
+    width: 20vw;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 13%;
+}
+.me 
+{
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+img:hover{
+    opacity: 100%;
+}
+#page2
+{
+   
+    width: 98.5vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    margin-left: 0px;
+
+}
+.para
+{
+    margin-left: 1%;
+    width: 46%;
+    height: 50%;
+    font-size: 4vh;
+    margin-top: 2%;
+}
+.About
+{
+    font-size: 2.3vw;
+    
+}
+.page3
+{
+    width: 98.5vw;
+    height:90vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+#about
+{
+    margin-top: 5%;
+    /* border: solid white 1px; */
+    height: 13vh;
+    width: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px grey;
+}
+
+.skills
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 1.4vw;
+    text-align: center;
+
+    height: 13vh;
+    width: 16vw;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px grey;
+}
+
+.html,.css,.js,.react,.tailwind
+{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    
+}
+
+.skillsimages
+{
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 50% 50% 50%; 
+    grid-template-rows: 70% 70%; 
+    margin-right: 15%;
+    gap: 10px;
+}
+img:hover{
+    opacity: 50%;
+}
+.page-4
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 98.5vw;
+    height: 230vh;
+}
+.title
+{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4vw;
+    text-align: center;
+    height: 13vh;
+    width: 16vw;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px grey;
+}
+
+#cal
+{
+    width: 30%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 100px black;
+    margin-top: 5%;
+}
+
+#html,#css,#js,#react,#tail
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+img:hover{
+    opacity: 100%;
+}
+
+.calculator,.stopwatch
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-1,.content-2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: wrap;
+    border: 3px dashed white;
+    height: 70vh;
+    width: 70vw;
+    gap: 10%;
+    /* margin-left: 10%; */
+    margin-top: 4%;
+    border-radius: 10px;
+}
+.calintro,.stopintro
+{
+    font-size: 1.8vw;
+
+    width: 30vw;
+    margin-bottom: 10%;
+}
+.calbtn,.stopbtn
+{
+    width: 10vw;
+    height: 10vh;
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.3vw;
+}
+.calbtn:hover
+{
+    opacity: 80%;
+    width: 10.1vw;
+    height: 10.1vh;
+}
+#stop
+{
+    width: 35%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 100px black;
+}
+.stop
+{
+    margin-top: 10%;
+}
+
+.stopbtn:hover
+{
+    opacity: 80%;
+    width: 10.1vw;
+    height: 10.1vh;
+}
+.cal h1,.stop h1
+{
+    margin-left: -30vw;
+}
+.cal
+{
+    margin-top: 10%;
+}
