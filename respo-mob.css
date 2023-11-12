@@ -1,8 +1,8 @@
 @media screen and (max-width:470px)
 {
-    .page1
+    #page1
     {
-        height: 0vh;
+        height: 75vh;
     }
     nav #name
     {
@@ -14,7 +14,7 @@
     }
     .me
     {
-        margin-top: 80px;
+        margin-top: 70px;
         height: 30vh;
         width: 60vw;
     }
@@ -29,6 +29,7 @@
     .intro
     {
         font-size: 8vw;
+        margin-top: 0%;
     }
     
     #about
