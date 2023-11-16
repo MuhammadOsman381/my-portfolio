@@ -7,41 +7,53 @@
 }
 body
 {
-    /* background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%); */
-    background-color: #2234ae;
-background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+    /* background-color: #2234ae;
+background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%); */
 
 
 }
-.list
+
+html
+{
+    scroll-behavior: smooth;
+}
+nav .list
 {
     display: flex;
-    align-items: center;
-    justify-content: right;
+    flex-direction: row;
+    gap: 15px;
     list-style-type: none;
-    gap: 20px;
-    margin: 35px;
     font-size: 18px;
     cursor: pointer;
-    height: 5vh;
-    width: 96vw;
-}
-li:hover
-{
-    font-size: 19px;
+    height: 10.5vh;
+    width: 30vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 nav
 {
     display: flex;
     align-items: center;
-    height: 14vh;
-
+    gap: 100vh;
+    flex-wrap: wrap;
 }
+li:hover
+{
+    font-size: 19px;
+}
+
 #name
 {
-    width: 30%;
+    width: 90%;
+    height: 10vh;
     font-size: 30px;
-    margin-left: 30px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 0px;
 }
 .name
 {
@@ -106,7 +118,7 @@ nav
     font-size: 2.3vw;
     
 }
-.page3
+#page3
 {
     width: 98.5vw;
     height:90vh;
@@ -114,6 +126,7 @@ nav
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 
 a{
@@ -123,7 +136,7 @@ a{
 #about
 {
     margin-top: 5%;
-    /* border: solid white 1px; */
+
     height: 13vh;
     width: 16vw;
     display: flex;
@@ -166,7 +179,7 @@ a{
     gap: 10px;
 }
 
-.page-4
+#page-4
 {
     display: flex;
     flex-direction: column;
@@ -243,7 +256,7 @@ a{
     height: 10vh;
     background-color: transparent;
     border: 1px white solid;
-    border-radius: 50px;
+    border-radius: 10px 100px / 120px 100px;
     cursor: pointer;
     font-size: 1.3vw;
 }
@@ -269,4 +282,15 @@ a{
 .cal
 {
     margin-top: 10%;
+}
+
+.mobile-nav
+{
+    border: none;
+    transition: 2s;
+}
+
+.list
+{
+    animation: infinite;
 }

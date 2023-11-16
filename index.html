@@ -5,21 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     
+
     <link rel="stylesheet" href="style.css">
+  
     <link rel="stylesheet" href="respo-tab.css">
+    <link rel="stylesheet" href="respo-lap.css">
     <link rel="stylesheet" href="respo-mob.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navb">
+            <div class="portfolio">
         <h1 id="name">Osman's portfolio</h2>
-            <!-- <div class="list">
-            <li class="home"><a href="#page-1">Home</a></li>
-            <li><a href="#page-2">About me</a></li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
-        </div> -->
+            <div class="hamburger">
+                <i class="bar  fa-solid fa-bars fa-xl"></i>
+            </div>
+        </div>
+        
+            <div class="mobile-nav">
+            <div class="list">
+            <li class="home" onclick="removeli()"><a href="#page1">Home</a></li>
+            <li  onclick="removeli()">  <a href="#page2" >About me</a></li>
+            <li  onclick="removeli()"> <a href="#page3">Skills</a></li>
+            <li class="projects"  onclick="removeli()"><a href="#page-4">Projects</a></li>
+            <li class="contact"  onclick="removeli()">Contact</li>
+        </div>
+    </div>
         </nav>
        <hr>
     </header>
@@ -45,7 +60,7 @@
         </p>
     </div>
 </div>
-    <div class="page3">
+    <div id="page3">
         <div class="skills">
             <h1 id="skills">
             Skills
@@ -69,7 +84,7 @@
         </div>
         </div>
     </div>
-    <div class="page-4">
+    <div id="page-4">
         <div class="title">
             <h1>
             Projects
@@ -119,6 +134,9 @@
 
         </div>
     </footer>
-    <script src="script.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="script.js"></script>
+   <script src="active-navbar.js"></script>
 </body>
 </html>

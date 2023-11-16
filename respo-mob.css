@@ -1,12 +1,17 @@
-@media screen and (max-width:470px)
+@media screen and (min-width: 320px)
 {
+    #page2
+    {
+        height: 95vh;
+    }
     #page1
     {
-        height: 75vh;
+        height: 80vh;
     }
     nav #name
     {
         font-size: 110%;
+        margin-top: -15px;
     }    
     nav
     {
@@ -14,14 +19,15 @@
     }
     .me
     {
-        margin-top: 70px;
+        margin-top:20px;
         height: 30vh;
         width: 60vw;
+        border-radius: 10px 100px / 120px 100px;
     }
     .image
     {
 
-        height: 30vh;
+        height: 20vh;
         width: 60vw;
         border-radius: 10px;
         margin-bottom: 10px;
@@ -29,12 +35,13 @@
     .intro
     {
         font-size: 8vw;
-        margin-top: 0%;
+        margin-top: -15%;
     }
     
     #about
     {
-        width: 50%;
+         width: 45%;
+        height: 11%;
     }
     .About
     {
@@ -49,13 +56,13 @@
     .skills
     {
         font-size: 2vh;
-        width: 50%;
-        height: 13%;
+        width: 45%;
+        height: 11%;
     }
     .skillsimages
     {
         width:50%;
-        height: 25%;
+        height: 20%;
         margin-right: 40%;
         gap: 13%;
         margin-top: 10%;
@@ -65,25 +72,28 @@
     
         border: 2px solid white;
         border-radius: 20px;
-        height: 110%;
-        width: 110%;
-       
+        height: 115%;
+        width: 115%;
     }
-    .page3
+    #react,#tail
+        {
+            margin-top: 10px;
+        }
+    #page3
     {
-        height: 70vh;
+        height: 100vh;
     }
 
-    .page-4
+    #page-4
     {
         height: 220vh;
         display: flex;
     }
     .title
     {
-        width: 50%;
+        width: 45%;
         font-size: 2vh;
-        height: 10vh;
+        height: 11vh;
     }
 
     #cal,#stop
@@ -136,5 +146,419 @@
     {
         margin-top: -5%;
     }
+    header {
+        position: relative;
+    }
+
+    nav 
+    {
+        gap: 0vh;
+    }
+    nav .list
+    {
+        height: 30vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin-top: -10px;
+        background: black;
+        z-index: 1;   
+    }
+    
    
+    .portfolio
+    {
+
+        display: flex;
+        gap: 27vh;
+        margin-bottom: 0vh;    
+    }
+
+    .hamburger
+    {
+        margin-right: 2vh;
+        margin-top: 3vh;
+    }
+
+    .list
+    {
+        display: none;
+    }
+    .mobile-nav
+    {
+        display: none;
+
+    }
+        
+
+}
+
+@media screen and (min-width: 480px)
+{
+    nav #name
+    {
+        font-size: 140%;
+    }
+    nav
+    {
+        height: 17vh;
+    }
+    .intro
+    {
+        margin-top: 40px;
+        margin-left: 15vw;
+    }
+    #page1 .intro
+    {
+        font-size: 7vh;
+    }
+    #page1
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .me
+    {
+        height: 50vh;
+        width: 26vw;
+        margin-bottom: 0vw;
+        border-radius: 10px 100px / 120px 100px;
+    }
+    .image
+    {
+        margin-top: 15px;
+        margin-right: 15vw;
+        height: 70vh;
+        width: 70vw;
+        border-radius: 10px;
+        margin-bottom: 0vw;
+    }
+
+
+    .About
+    {
+        margin-top: 0vw;
+    }
+    #page2
+    {
+        height: 100vh;
+        padding-top: 50px;
+    }
+    #page2 .About
+    {
+        font-size: 3vw;
+
+    }
+    #about
+    {
+        width: 24vw;
+        margin-top: -0px;
+        height: 20vh;
+    }
+    .para{
+        font-size: 2.5vw;
+    }
+
+
+    #page3{
+        height: 140vh;
+    }
+    .skills
+    {
+        width: 24vw;
+        margin-top: -0px;
+        height: 20vh;
+        font-size: 1.7vw;
+        margin-bottom: -50px;
+        margin-top: 20vh;
+    }
+    .skillsimages
+    {
+        width: 30vw;
+        height: 30vh;
+    }
+    #html,#css,#js,#react,#tail
+    {
+        width: 13vw;
+        height: 29vh;
+        margin: 0px;
+        gap: 0vw;
+        display: grid;
+        margin-left: 20vh;
+    align-items: none;
+    justify-content: none;
+    border:none;
+    border: white 3px solid;
+    border-radius: 20px;
+    margin-top: 0vw;
+    }
+    #react,#tail
+    {
+        margin-top: 30px;
+    }
+
+    .title
+    {
+       
+        width: 24vw;
+        margin-top: -0px;
+        height: 20vh;
+        font-size: 1.7vw;
+        margin-top: 50px;
+    }
+    #page-4
+    {
+        height: 350vh;
+        margin: 0px;
+    }
+
+    .calculator,.stopwatch
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .calintro,.stopintro
+    {
+       
+        width: 34vw;
+        margin: 0px;
+        margin-right: 1vw;
+    }
+    .calbtn,.stopbtn
+    {
+        width: 15vw;
+        height: 15vh;
+        margin-top: 2vw;
+        border-radius: 10px 100px / 120px 100px;
+    }
+    #cal
+    {
+        margin: 0px;
+        width: 28vw;
+        height: 65vh;
+        margin-top: 5vh;
+    }
+    .content-1,.content-2
+    {
+        font-size: 4vh;
+        gap: 20vh;
+        margin-left: 5vh;
+    }
+
+    .stopwatch
+    {
+        width: 89vw;
+        margin-left: -2vw;
+    }
+    #stop
+    {
+        width: 30vw;
+        height: 65vh;
+        margin-top: -0px;
+    }
+    .cal h1 ,.stop h1
+    {
+        font-size: 4vw;
+    }
+    .cal,.stop
+    {
+        margin-top: 0px;
+        width: 22vw;
+    }
+    .portfolio
+    {
+
+        display: flex;
+        gap: 140vh;   
+    }
+    nav  #name
+    {
+        
+        margin-bottom: -0px;
+    }
+    nav .list
+    {
+        display: grid;
+        height: 66.5vh;
+        margin-top: 2vh;
+    }
+    .portfolio
+    {
+        margin-top: 15px;
+    }
+    .hamburger
+    {
+        margin-top: 0;
+    }
+    
+}
+
+@media (min-width:1025px)
+{
+    nav 
+    {
+        height: 14vh;
+    }
+    nav #name
+    {
+        font-size: 1.8vw;
+    }
+
+    .intro
+    {
+        font-size: 5vh;
+        width: 120vw;
+        text-align: center;
+    }
+    #page1
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 85vh;
+    }
+    .About
+    {
+        font-size: 0px;
+    }
+    #about
+    {
+        height: 16vh;
+        width: 18vw;
+        font-size: 0px;
+    }
+    .para
+    {
+        font-size: 2vw;
+        text-align: center;
+
+    }
+
+    .skills
+    {
+        height: 16vh;
+        width: 18vw;
+        font-size: 1.5vw;
+    }
+    .skillsimages
+    {
+        width: 20vw;
+        height: 20vh;
+        margin-left: 80px;
+    }
+    #html,#css,#js,#react,#tail
+    {
+        width: 10vw;
+        height: 20vh;
+        
+    }
+
+    .title
+    {
+        height: 16vh;
+        width: 18vw;
+        font-size: 1.5vw;
+    }
+
+    .content-1,.content-2
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2vw;
+        height: 60vh;
+        width: 70vw;
+    }   
+
+    #cal,#stop
+    {
+        width: 20vw;
+        height: 50vh;
+      
+    }
+    .cal,.stop
+    {
+        
+        width: 0vw;
+
+    }
+    .calculator,.stopwatch
+    {
+        display: flex;
+        
+        flex-direction: column;
+    }
+    .stopwatch
+    {
+        margin-top: 0vw;
+        margin-left: -20px;
+ }
+    .cal h1, .stop h1{
+        font-size: 2.5vw;
+        text-align: left;
+    }
+
+    .calbtn,.stopbtn
+    {
+        width: 12vw;
+        height: 10vh;
+    }
+
+    nav 
+    {
+        gap: 15vh;
+    }
+    nav .list
+    {
+      
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        list-style-type: none;
+        font-size: 18px;
+        cursor: pointer;
+        height: 10.5vh;
+        width: 30vw;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        margin-top: 0px;
+        padding: 0;
+    }
+
+    nav
+    {
+        display: flex;
+        align-items: center;
+        gap: 100vh;
+        flex-wrap: wrap;
+    }
+    
+    .hamburger
+    {
+        display: none;
+    }
+
+    .list
+    {
+        display: flex;
+        border: none;
+    }
+    .mobile-nav
+    {
+        display: flex;
+        border: none;
+    }
+ 
+
 }
