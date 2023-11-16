@@ -521,44 +521,60 @@
     {
       
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 15px;
         list-style-type: none;
         font-size: 18px;
         cursor: pointer;
-        height: 10.5vh;
-        width: 30vw;
-        flex-wrap: wrap;
+        height: 85vh;
+        width: 20vw;
+        /* flex-wrap: wrap; */
         align-items: center;
         justify-content: center;
         background: transparent;
-        margin-top: 0px;
+        margin-top: -14vh;
         padding: 0;
+        background: black;
+        z-index: 1;
+        margin-right: -180vw;
+        margin-left: 66vh;
+        /* border-radius: 20px; */
+        box-shadow: 1px 1px 10px grey;
     }
 
     nav
     {
         display: flex;
-        align-items: center;
-        gap: 100vh;
-        flex-wrap: wrap;
+        /* align-items: center; */
+        /* gap: 100vh; */
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
     
     .hamburger
     {
-        display: none;
+        margin-top: 2vh;
+        cursor: pointer;  
     }
 
     .list
     {
         display: flex;
         border: none;
+        display: none;
+        cursor: pointer;
     }
     .mobile-nav
     {
         display: flex;
         border: none;
+        display: none;
+       
     }
  
+    .portfolio
+    {
+        gap: 70vw;
+    }
 
 }
